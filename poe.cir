@@ -1,0 +1,27 @@
+* /home/keine-ahnung/workspace/hardware/PoE-LEDs/poe.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Mo 27 Feb 2017 22:14:30 CET
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+P1  2 2 13 14 14 13 15 15 CONN_01X08		
+R1  15 14 22kΩ		
+R2  13 2 22kΩ		
+D4  2 9 ZENER		
+D6  12 9 ZENER		
+D3  15 11 ZENER		
+D5  4 11 ZENER		
+1.65k1  8 14 R		
+1.65k2  10 13 R		
+D8  10 12 LED		
+D10  12 10 LED		
+D7  4 8 LED		
+D9  8 4 LED		
+D1  3 14 1 15 Diode_Bridge		
+D2  3 2 1 13 Diode_Bridge		
+Q1  ? 6 3 Q_NMOS_DGS		
+D11  1 6 ZENER		
+
+.end
