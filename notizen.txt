@@ -1,4 +1,11 @@
+TODO: Kondensator 450µF oder größer am Eingang des Step Down
+Widerstände: auf 0.5W dimensionieren
+Gesamtschaltung: 0.651 W
+
+
+Todo:
+- Verlustleistung der Gesammtschaltung berechnen
 
 N-MOS: http://www.mouser.de/Semiconductors/Discrete-Semiconductors/Transistors/MOSFET/_/N-ax1sf?P=1z0y3zrZ1ydlytpZ1yrzahtZ1yikh4fZ1yikk4c&Rl=ax1sfZgjdhp3Z1yw78dzZ1ypyijjS1yodqmmZ1ynyafeZ1yw78fvZ1ynyaepGT&Ns=Pricing%7c0
 
-Beispielkondensator, der den Anforderungen entspricht: http://www.mouser.de/ProductDetail/Nexperia/NX7002AKVL/?qs=sGAEpiMZZMshyDBzk1%2fWiwhg%252bJbteykV9w5cubKq8XdkO9kd8b8Ncw%3d%3d
+Beispieltransistor, der den Anforderungen entspricht: http://www.mouser.de/ProductDetail/Nexperia/NX7002AKVL/?qs=sGAEpiMZZMshyDBzk1%2fWiwhg%252bJbteykV9w5cubKq8XdkO9kd8b8Ncw%3d%3d

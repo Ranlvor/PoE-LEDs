@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Custom)(type KiCad)(uri /home/keine-ahnung/workspace/hardware/PoE-LEDs/custom.pretty)(options "")(descr ""))
+  (lib (name "Common Lib")(type KiCad)(uri /home/keine-ahnung/workspace/hardware/kicad-library)(options "")(descr ""))
+  (lib (name pth-semi)(type KiCad)(uri /home/keine-ahnung/workspace/hardware/kicad-library/kicad-pcblib/pth-semi.pretty)(options "")(descr ""))
+)

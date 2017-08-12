@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Bananasocket
+#
+DEF ~Bananasocket U 0 0 N N 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "Bananasocket" 0 0 60 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+X ~ 1 0 100 0 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Step_Down
+#
+DEF Step_Down U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "Step_Down" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 450 350 0 0 0 0 N
+S -100 100 350 300 0 0 0 N
+X IN- 1 -250 150 150 R 50 50 1 1 B
+X IN+ 2 -250 250 150 R 50 50 1 1 B
+X OUT+ 3 500 250 150 L 50 50 1 1 B
+X OUT- 4 500 150 150 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
