@@ -1,3 +1,15 @@
+TODO: 
+ - Löcher Brückengleichrichter größer
+ - Mode A / Mode B im Silkscreen
+
+
+
+Widerstände Transistor neu berechnen nach Gatekapazität. 75 kOhm - 100kOhm
+
+
+
+TODO: Drähte anlötbar zur Stromabnahme. Through Hole und als Pad
+
 TODO: Kondensator 450µF oder größer am Eingang des Step Down
 Widerstände: auf 0.5W dimensionieren
 Gesamtschaltung: 0.651 W
